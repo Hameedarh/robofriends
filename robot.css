@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .root{
+    background-image: url(bb.gif);
+    background-size: cover;
+} */
+.head{
+    padding-bottom: 10px;
+    text-align: center;
+    /* background-color: white; */
+}
+.head h1{
+    letter-spacing: 7px;
+    font-family: Franklin Gothic medium;
+    color: aqua;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.ser{
+    border: 1px solid blue;
+    padding: 16px 16px;
+    background-color: whitesmoke;
+}
+.tf{
+    padding-top: 30px;
+    border: 1px solid red;
+    height: 1300px;
+    overflow-y: scroll;
+}
+/* .container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+} */
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.firstrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS;
+    margin-left: 25px;
+}
+.firstrob img{
+    width: 300px;
+    height: 300px;
+}
+.con{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.con:hover{
+    color: brown;
+}
+.secondrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    margin: 0 30px;
+    /* padding-right: 20px */
+}
+.secondrob img{
+    width: 300px;
+    height: 300px;
+}
+.me{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.me:hover{
+    color: brown;
+}
+.thirdrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    margin-right: 25px;
+}
+.thirdrob img{
+    width: 300px;
+    height: 300px;
+}
+.cm{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.cm:hover{
+    color: brown;
+}
+.fourthrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+}
+.fourthrob img{
+    width: 300px;
+    height: 300px;
+}
+.dm{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.dm:hover{
+    color: brown;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.fifthrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS;
+    margin-left: 25px;
+    padding-right: 4px;
+}
+.fifthrob img{
+    width: 300px;
+    height: 300px;
+}
+.em{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.em:hover{
+    color: brown;
+}
+.sixthrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    margin: 0 30px;
+    /* padding-right: 20px */
+}
+.sixthrob img{
+    width: 300px;
+    height: 300px;
+}
+.fm{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.fm:hover{
+    color: brown;
+}
+.sevenrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    margin-right: 25px;
+}
+.sevenrob img{
+    width: 300px;
+    height: 300px;
+}
+.gm{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.gm:hover{
+    color: brown;
+}
+.eightrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    padding-left: 4px;
+}
+.eightrob img{
+    width: 300px;
+    height: 300px;
+}
+.hm{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.hm:hover{
+    color: brown;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.ninthrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    padding-left: 4px;
+}
+.ninthrob img{
+    width: 300px;
+    height: 300px;
+}
+.im{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.im:hover{
+    color: brown;
+}
+.tenthrob{
+    display:inline-block;
+    border: 1px solid rgb(174, 219, 219);
+    background-color: rgb(187, 228, 228);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Trebuchet MS; 
+    padding-left: 4px;
+}
+.tenthrob img{
+    width: 300px;
+    height: 300px;
+}
+.jm{
+    background-color: rgb(92, 194, 194);
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.jm:hover{
+    color: brown;
+}

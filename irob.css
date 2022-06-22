@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(gif7.gif);
+    /* background-size: cover; */
+    font-family: Trebuchet MS;
+}
+.robot{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 20px;
+    font-family: Trebuchet MS;
+    color: yellow;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid yellow;
+    height: 30px;
+}
+.ser{
+    border: 2px solid red;
+}
+.container{
+    border: 2px solid rgb(247, 234, 51);
+    margin-top: 60px;
+    height: 1300px;
+    overflow-y: scroll;
+}
+.tain{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 95%;
+    margin:0 auto;
+    justify-content: center;
+    padding-top: 30px;
+}
+.firstrob{
+    border: 1px solid rgb(123, 116, 192);
+    background-color: rgb(123, 116, 192);
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10%;
+}
+.firstrob:hover{
+    transform: scale(1.06);
+}
+.firstrob img{
+    width: 270px;
+    height: 270px;
+}
+.firstrob p{
+    padding-bottom: 20px;
+    color: yellow;
+    font-size: 20px;
+}
+/* .con{
+    border: 1px solid plum;
+    background-color: plum;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding: 10px;
+    color: blueviolet;
+    width: 30%;
+} */
+button{
+    border: 1px solid plum;
+    /* padding-top: 10px; */
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    background-color: plum;
+}
+button a{
+    text-decoration: none;
+}
